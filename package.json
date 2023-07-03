@@ -1,5 +1,5 @@
 {
-  "homepage": "https://csaavedras.github.io/avo-store",
+  "homepage": "https://csaavedras.github.io/avo-store/public",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
