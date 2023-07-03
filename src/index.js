@@ -48,22 +48,21 @@ fetchData()
             imagen.src = imageUrl
             // Titulo
             const titulo = document.createElement('h1')
-            titulo.className = 'font-semibold text-lg px-5 bg-gray-100 pt-2'
+            titulo.className = 'font-semibold text-lg px-5  pt-2 text-green-600'
             titulo.innerText = name
             // Precio
             const precio = document.createElement('p')
-            precio.className = 'font-semibold text-3xl pb-4 px-5 bg-gray-100'
+            precio.className = 'font-semibold text-3xl pb-4 px-5 '
             precio.innerText = formatPrice(price)
             // Card
             const card = document.createElement('div')
             card.append(imagen, titulo, precio)
-            card.className = 'bg-white bg-white border border-gray-200 rounded-lg shadow'
+            card.className = 'rounded-lg shadow drop-shadow-2xl'
             card.style = 'margin: 0 auto'
 
             const wrap = document.querySelector('#wrap')
             wrap.append(card)
             document.body.appendChild(wrap)
-            document.body.className = 'bg-slate-200'
             document.body.classList.add('w-full')
 
         })
