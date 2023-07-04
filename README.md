@@ -47,8 +47,8 @@ yarn install:husky
 
 - [x] Update the value of `homepage` in `package.json`. It should look like `https://<your-username>.github.io/<your-repo-name>` (no trailing slash).
 - [x] Push your changes into a new GitHub repository.
-- [ ] You should see an Action running on `https://github.com/<your-username>/<repo-name>/actions`
-- [ ] Make sure to [enable GitHub pages for your repo](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) and select the `gh-pages` branch
+- [x] You should see an Action running on `https://github.com/<your-username>/<repo-name>/actions`
+- [x] Make sure to [enable GitHub pages for your repo](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) and select the `gh-pages` branch
 - [ ] Give GH Pages some minutes, your site should be live on `https://<your-username>.github.io/<your-repo-name>`
 - [ ] Enjoy :)
 
