@@ -19,7 +19,7 @@ const formatPrice = (price) => {
 // TODO 
 // - [x] Conectarnos al server 
 // - [x] Procesar respuesta y convertirla en JSON
-// - [] JSON -> DATA -> Renderizar en navegador 
+// - [x] JSON -> DATA -> Renderizar en navegador 
 
 const fetchData = () => {
     return new Promise((resolve, reject) => {
